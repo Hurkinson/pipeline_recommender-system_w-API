@@ -29,7 +29,6 @@ def search_movies_endpoint(request: MovieSearchRequest):
     if results.empty:
         raise HTTPException(status_code=404, detail="Aucun film trouvé.")
     
-    # Retourner les films possibles
     return {
         "results": results[['index', 'primaryTitle', 'originalTitle', 'startYear']].to_dict(orient='records')
     }

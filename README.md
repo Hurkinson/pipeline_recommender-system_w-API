@@ -1,5 +1,17 @@
 pipeline Recommender system avec frontend Streamlit via fast API. V.0 - 16_12_2024
 
+# utilisation 
+
+lancez le script run_project.sh depuis le bash:
+
+./run_project.sh
+
+- création d'environnement virtuel (reco_env)
+- mise à jour de pip
+- Installation des dépendances (requirement.txt) 
+- Lancement de l'API FastAPI
+- Lancement de l'application Streamlit
+
 # Description
 
 ##1. Système de recommandation

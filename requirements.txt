@@ -3,5 +3,5 @@ uvicorn
 streamlit
 requests
 pandas
-sklearn
+scikit-learn
 pydantic
