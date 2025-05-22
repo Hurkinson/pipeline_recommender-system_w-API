@@ -12,7 +12,6 @@ function error {
 
 ENV_DIR="reco_env"
 
-# Création de l'environnement virtuel s'il n'existe pas
 if [ ! -d "$ENV_DIR" ]; then
     info "Création de l'environnement virtuel '$ENV_DIR'..."
     python -m venv $ENV_DIR
